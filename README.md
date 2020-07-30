@@ -9,9 +9,9 @@ Docker development and deployment of react app
     - in your prefered code editor, open your project folder and make a change in your docker-compose.yml file set the 
 
     
-    volumes:
-      - /app/node_modules
-      - your_project_folder_path:/app
+            volumes:
+              - /app/node_modules
+              - your_project_folder_path:/app
 
 
     - in terminal or CMD, execute command docker-compose up 

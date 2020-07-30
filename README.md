@@ -30,7 +30,7 @@ Docker development and deployment of react app
     TTY", it is located in Acitons commit Docker_React_Test_1.0.5, because the docker react app will not run without that -it flag,
     the whole raw docker command looks like this " docker run -it -p 3000:3000 image name or id " 
 
-    - the docekr -it flag is set in docker-compose.yml thats why it works on local machine, and not on Github Actions
+    - the docker -it flag is set in docker-compose.yml thats why it works on local machine, and not on Github Actions
 
             (-it flag == stdin_open: true
                          tty: true)

@@ -19,7 +19,7 @@ Docker development and deployment of react app
 
 
 
-    - then make a change in your code and see the 
+    - then make a change in your code in /src/App.js and see the 
     changes automagicaly take afect in the browser, this is achived with docker volumes in docker-compose.yml file
     (of course if everything is working as it should :) )
 

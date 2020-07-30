@@ -32,10 +32,10 @@ Docker development and deployment of react app
 
     - the docekr -it flag is set in docker-compose.yml thats why it works on local machine, and not on Github Actions
 
-    (-it flag ==     
-    
-    stdin_open: true
-    tty: true)
+            (-it flag ==     
+
+            stdin_open: true
+            tty: true)
 
     in docker-compose.yml
 
